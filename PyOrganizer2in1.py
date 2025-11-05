@@ -5,13 +5,18 @@ from tkinter import Tk, filedialog, Button, Label, messagebox
 
 FILE_TYPES = {
     "Images": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff", ".webp"],
-    "Documents": [".doc", ".docx", ".txt", ".odt", ".rtf"],
+    "Documents": [".doc", ".docx", ".txt", ".odt", ".rtf", ".epub"],
+    "Presentations": [".ppt", ".pptx"],
+    "Spreadsheet": [".xls", ".xlsx", ".csv"],
     "PDFs": [".pdf"],
     "Videos": [".mp4", ".mov", ".avi", ".mkv", ".flv", ".wmv"],
-    "Audio": [".mp3", ".wav", ".aac", ".flac", ".ogg"],
+    "Audio": [".mp3", ".wav", ".aac", ".flac", ".ogg", ".m4a", ".amr"],
     "Archives": [".zip", ".rar", ".7z", ".tar", ".gz", ".bz2"],
-    "Scripts": [".py", ".js", ".html", ".css", ".java", ".c", ".cpp", ".sh", ".pl", ".rb"],
+    "Scripts": [".py", ".js", ".jsx", ".html", ".mhtml", ".css", ".java", ".c", ".cpp", ".sh", ".pl", ".rb"],
     "Packages": [".deb", ".rpm", ".pkg", ".appimage", ".exe", ".msi"],
+    "OS-Images": [".iso", ".dmg"],
+    "Databases": [".db", ".json"],
+    "Leavethemtogetf.cked': [".bin"]
     "Others": []
 }
 
